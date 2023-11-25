@@ -1,0 +1,8 @@
+[[plugins]]
+package = "@netlify/plugin-gatsby"
+
+[functions]
+node_bundler = "esbuild"
+directory = "functions/"
+# node module required by the  function
+external_node_modules = ["google-auth-library", "google-spreadsheet"]
