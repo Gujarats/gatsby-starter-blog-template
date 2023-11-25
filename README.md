@@ -43,6 +43,8 @@ DEVELOPMENT_ENVIRONMENT=true
 
 ```
 
+For the private key don’t forget to add `‘` and `‘` at the end and start, don’t worry about the `\n` cuz in the code I already implement to remove them.
+
 ## Google analytics
 
 if you want to use google analytics then please check your analitics ID if you don't want to encounter this error
@@ -62,7 +64,7 @@ if you don't want to use analytics, then simply uninstall it first
 npm uninstall gatsby-plugin-google-gtag
 ```
 
-For the private key don’t forget to add `‘` and `‘` at the end and start, don’t worry about the `\n` cuz in the code I already implement to remove them.
+and remove the plugins from `gatsby-config.js`
 
 ## Start
 
